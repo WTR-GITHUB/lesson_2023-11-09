@@ -30,7 +30,7 @@ def sepacate_numbers(text_line: str) -> List[str]:
         logging.error(error)
 
 
-def sepacate_spec_simbolss(text_line: str) -> List[str]:
+def sepacate_spec_simbols(text_line: str) -> List[str]:
     try:
         only_simb = [simb for simb in text_line if not simb.isalpha() and not simb.isnumeric()]
         return only_simb
