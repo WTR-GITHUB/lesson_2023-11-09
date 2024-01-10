@@ -83,4 +83,4 @@ while True:
         Enter_7 = str((mf.sepacate_spec_simbols(user_string))) + "\n"
         Done_7 = "... Done \n"
     else:
-        wrong_key = f"\n You have entered '{user_key}' a bad key, please do better."
+        wrong_key = f"\n You have entered '{user_key}' a bad key, pleasegit do better."
